@@ -1,0 +1,71 @@
+.product-price {
+    background-color: #fff;
+    font-family: 'Manrope';
+}
+
+.product-price-block:first-child {
+    position: relative;
+    bottom: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.title {
+    position: relative;
+    font-size: 48px;
+}
+
+.subtitle {
+    font-size: 32px;
+}
+
+.product-price-text {
+    font-size: 24px;
+}
+
+.product-price-block:nth-child(2) {
+    position: relative;
+    bottom: 80px;
+}
+.card-image {
+    width: 300px;
+    height: 300px;
+}
+
+.product-price-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+    font-size: 32px;
+    padding: 0 5%;
+}
+
+.list-title {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.list-item {
+    margin-left: 40px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.productAll-blocks:nth-child(3) {
+    width: 1408px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 130px;
+    padding-bottom: 200px;
+}

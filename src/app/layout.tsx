@@ -5,25 +5,23 @@ import Footer from './components/Footer/Footer';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Granit',
-
-}
-
+    title: 'Гранитный двор',
+};
 
 export default function RootLayout({
-  children,
+    children,
 }: Readonly<{
-  children: React.ReactNode;
+    children: React.ReactNode;
 }>) {
-  return (
-    <html lang="en">
-      <body className="page">
-        <div className="page-main">
-          <Header />
-          {children}
-          <Footer />
-        </div>
-      </body>
-    </html>
-  );
+    return (
+        <html lang="en">
+            <body className="page">
+                <div className="page-main">
+                    <Header />
+                    {children}
+                    <Footer />
+                </div>
+            </body>
+        </html>
+    );
 }

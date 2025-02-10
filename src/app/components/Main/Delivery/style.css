@@ -1,0 +1,38 @@
+.delivery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.del {
+    width: 1408px;
+    padding: 0px 5%;
+}
+
+.wholesale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 48px;
+    background-color: #474a51;
+    color: #fff;
+    width: 90%;
+    height: 350px;
+    padding: 0px 5%;
+}
+
+.wholesale-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Manrope';
+    font-weight: 600;
+}

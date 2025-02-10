@@ -1,0 +1,38 @@
+.contacts {
+    background-color: #fff;
+    font-family: 'Manrope';
+}
+
+.contacts-blocks:first-child {
+    position: relative;
+    bottom: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    color: #fff;
+}
+
+.contacts-subtitle {
+    position: relative;
+    font-size: 32px;
+}
+
+.subtitle-contacts {
+    position: relative;
+    font-size: 32px;
+    bottom: 100px;
+}
+
+.contacts-title {
+    font-size: 64px;
+}
+
+.contacts-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-size: 32px;
+    padding: 0 5%;
+}

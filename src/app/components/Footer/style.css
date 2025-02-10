@@ -28,13 +28,6 @@
   align-items: center;
   flex-direction: column;
 }
-.footer last-child {
-  display: flex;
-  align-items: start;
-  
-  gap: 100px;
-  flex-direction: column;
-}
 
 .logo-footer {
   width: 150px;
@@ -47,7 +40,7 @@
   background-color: #000;
   margin: 20px 0;
 }
-.info {
+.footer-info {
   font-weight: 300;
 }
 
@@ -62,7 +55,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  padding: 0px 32px;
+  padding: 0px 32px 32px;
 }
 .icons {
   display: flex;

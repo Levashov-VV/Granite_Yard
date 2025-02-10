@@ -1,0 +1,24 @@
+.granite-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 32px 48px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+.granite-block:last-child {
+    padding-bottom: 0;
+}
+
+.granite-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}

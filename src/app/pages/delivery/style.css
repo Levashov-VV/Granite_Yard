@@ -1,0 +1,106 @@
+.delivery {
+    background-color: #fff;
+    font-family: 'Manrope';
+}
+
+.delivery-blocks:first-child {
+    position: relative;
+    bottom: 365px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    color: #fff;
+}
+
+.subtitle-delivery {
+    position: relative;
+    font-size: 32px;
+}
+
+.title-delivery {
+    font-size: 64px;
+}
+
+.delivery-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-size: 32px;
+    padding: 0 5%;
+}
+
+.truck {
+    width: 100px;
+    height: 100px;
+}
+
+.delivery-blocks:nth-child(2) {
+    position: relative;
+    bottom: 120px;
+}
+
+.delivery-blocks:nth-child(3) {
+    width: 1408px;
+    position: relative;
+    bottom: 80px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0 5%;
+}
+
+.delivery-list {
+    display: flex;
+
+    flex-direction: column;
+    gap: 48px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 20px;
+}
+
+.list-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.list-item {
+    margin-bottom: 10px;
+}
+
+.list-subtitle {
+    padding-bottom: 24px;
+}
+
+.delivery-text {
+    line-height: 48px;
+}
+
+.delivery-blocks:nth-child(4) {
+    position: relative;
+    bottom: 40px;
+}
+
+.delivery-img-title {
+    display: flex;
+    gap: 32px;
+    padding: 0 5%;
+}
+
+.delivery-example {
+    width: 550px;
+    height: 400px;
+}
+
+.delivery-blocks:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}

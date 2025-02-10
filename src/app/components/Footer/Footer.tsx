@@ -21,12 +21,12 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-block">
-        <span>
+        <span className="footer-info">
           Изготовление и продажа гранитных памятников в Волгограде. <br />
           Все виды изделий оптом от производителя.
         </span>
         <hr className="line" />
-        <span className="info">
+        <span className="footer-info">
           Информация на сайте не является публичной офертой. Уточняйте точную
           стоимость у продавца.
         </span>
