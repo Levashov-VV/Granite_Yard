@@ -1,0 +1,56 @@
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 32px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 64px;
+}
+
+.info-block:first-child {
+    padding-top: 16px;
+}
+
+.cards {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.title {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.text {
+    width: 90%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    font-family: 'Manrope';
+    font-weight: 400;
+}
