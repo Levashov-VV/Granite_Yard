@@ -40,12 +40,11 @@
 .nav-button {
     display: flex;
     align-items: center;
-    gap: 8px;
     background: #fff;
     width: 140px;
     border: none;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     font-family: manrope, serif;
@@ -56,7 +55,7 @@
 }
 
 .nav-button-text {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 20px;
     font-family: 'Manrope';
@@ -83,8 +82,8 @@
 }
 
 .header-img {
-    width: 1408px;
+    width: 1409px;
     padding-top: 5px;
-    height: 600px;
+    height: 700px;
     position: absolute;
 }

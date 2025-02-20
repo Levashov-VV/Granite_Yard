@@ -10,6 +10,11 @@
     font-family: 'Manrope';
     font-weight: 600;
 }
+
+.granite-block:first-child {
+    position: relative;
+    bottom: 40px;
+}
 .granite-block:last-child {
     padding-bottom: 0;
 }

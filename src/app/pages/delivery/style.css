@@ -5,12 +5,13 @@
 
 .delivery-blocks:first-child {
     position: relative;
-    bottom: 365px;
+    bottom: 310px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 64px;
     color: #fff;
+    padding-bottom: 80px;
 }
 
 .subtitle-delivery {
@@ -38,7 +39,7 @@
 
 .delivery-blocks:nth-child(2) {
     position: relative;
-    bottom: 120px;
+    bottom: 100px;
 }
 
 .delivery-blocks:nth-child(3) {

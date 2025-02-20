@@ -1,7 +1,7 @@
 import Button from '../Buttons/Button';
 import GraniteCard from './Granite-card/Granite-Card';
 import gabroDia from '../../../Assets/main/Granit/gabbrodr.jpg';
-import gabroKarBlack from '../../../Assets/main/Granit/gabro-karBlack.jpg';
+import sosnovskiy from '../../../Assets/main/Granit/sosnovo-grey-granit.jpg';
 import dym from '../../../Assets/main/Granit/dym.jpg';
 import hibinit from '../../../Assets/main/Granit/hibinit.jpg';
 import vinga from '../../../Assets/main/Granit/vinga.jpg';
@@ -24,10 +24,10 @@ export default function Granite() {
             href: '/pages/product/Gabro-D',
         },
         {
-            title: 'Карелия блэк',
-            subtitle: 'Габбро-диабаз',
-            img: gabroKarBlack,
-            href: '/pages/product/Karelia-black',
+            title: 'Сосновский серый',
+            subtitle: 'Гранит',
+            img: sosnovskiy,
+            href: '/pages/product/Sosnovckiy',
         },
         {
             title: 'Дымовский',
@@ -80,7 +80,7 @@ export default function Granite() {
     ];
 
     return (
-        <div className="granite">
+        <div className="granite zoomIn wow">
             <div className="granite-block">
                 <h2 className="title">Наши граниты</h2>
             </div>

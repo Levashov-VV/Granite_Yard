@@ -6,9 +6,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 import Image from 'next/image';
-import Slide1 from './Slide1.jpg';
-import Slide2 from './Slide2.jpg';
-import Slide3 from './Slide3.jpg';
+import Slide1 from './Slide1.png';
+import Slide2 from './Slide2.png';
+import Slide3 from './Slide3.png';
 import './style.css';
 
 const Slider = () => {

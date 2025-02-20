@@ -1,6 +1,7 @@
 .productAll {
     background-color: #fff;
     font-family: 'Manrope';
+    width: 1408px;
 }
 
 .productAll-blocks:first-child {
@@ -11,6 +12,7 @@
     align-items: center;
     gap: 64px;
     color: #fff;
+    margin-bottom: 80px;
 }
 
 .subtitle-productAll {
@@ -34,7 +36,7 @@
 
 .productAll-blocks:nth-child(2) {
     position: relative;
-    bottom: 80px;
+    bottom: 120px;
 }
 
 .productAll-title {
@@ -52,5 +54,12 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 130px;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
+    position: relative;
+    bottom: 60px;
+}
+
+.productAll-blocks:nth-child(4) {
+    position: relative;
+    bottom: 30px
 }

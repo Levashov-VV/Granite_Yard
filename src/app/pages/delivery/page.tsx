@@ -1,11 +1,11 @@
 import './style.css';
 import Image from 'next/image';
 import Truck from '../../Assets/Delivery/truck.svg';
-import Delivery1 from '../../Assets/Delivery/Delivery-1.jpg';
-import Delivery2 from '../../Assets/Delivery/Delivery-2.jpg';
+import Delivery1 from '../../Assets/Delivery/Delivery-1.png';
+import Delivery2 from '../../Assets/Delivery/Delivery-2.png';
 import Icons from '../../components/Main/FeedBack/Icons/Icons';
-import DeliveryTitle from '../../Assets/Delivery/Delivery-title.jpg';
-import DeliveryTitle2 from '../../Assets/Delivery/Delivery-title2.jpg';
+import DeliveryTitle from '../../Assets/Delivery/Delivery-title.png';
+import DeliveryTitle2 from '../../Assets/Delivery/Delivery-title2.png';
 
 export default function DeliveryPage() {
     const listQualities = [

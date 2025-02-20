@@ -3,7 +3,7 @@ import './style.css';
 
 export default function FeedBack() {
     return (
-        <div className="feedback">
+        <div className="feedback fadeInUp wow">
             <div className="feedback-block">
                 <h2 className="title">Напишите нам</h2>
             </div>
@@ -17,7 +17,7 @@ export default function FeedBack() {
                     рассмотреть ваши запросы и предложить оптимальные решения.
                 </p>
             </div>
-            <div className="feedback-block">
+            <div className="feedback-block zoomIn wow">
                 <Icons />
             </div>
         </div>

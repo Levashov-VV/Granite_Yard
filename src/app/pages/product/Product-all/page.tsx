@@ -1,7 +1,8 @@
 import './style.css';
+import FeedBack from '@/app/components/Main/FeedBack/FeedBack';
 import Cards from './Cards-product/cards-product';
 import gabroDia from '../../../Assets/main/Granit/gabbrodr.jpg';
-import gabroKarBlack from '../../../Assets/main/Granit/gabro-karBlack.jpg';
+import sosnovskiy from '../../../Assets/main/Granit/sosnovo-grey-granit.jpg';
 import dym from '../../../Assets/main/Granit/dym.jpg';
 import hibinit from '../../../Assets/main/Granit/hibinit.jpg';
 import vinga from '../../../Assets/main/Granit/vinga.jpg';
@@ -26,9 +27,9 @@ export default function ProductAll() {
             href: '/pages/product/Gabro-D',
         },
         {
-            title: 'Карелия блэк',
-            img: gabroKarBlack,
-            href: '/pages/product/Karelia-black',
+            title: 'Сосновский (серый)',
+            img: sosnovskiy,
+            href: '/pages/product/Sosnovckiy',
         },
         {
             title: 'Дымовский',
@@ -125,6 +126,9 @@ export default function ProductAll() {
                 {graniteBase.map((item) => {
                     return <Cards key={item.title} {...item} />;
                 })}
+            </div>
+            <div className="productAll-blocks">
+                <FeedBack />
             </div>
         </div>
     );

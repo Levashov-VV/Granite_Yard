@@ -1,13 +1,32 @@
 .main {
     background: #fff;
     width: 1408px;
-    padding-bottom: 5%;
 }
 
-.main:last-child {
-    padding-top: 64px;
+.main-block:first-child {
+    position: relative;
+    bottom: 590px;
 }
 
-.main-block {
-    padding-top: 32px;
+.main-block:nth-child(2) {
+    position: relative;
+    bottom: 380px
 }
+.main-block:nth-child(3) {
+    position: relative;
+    bottom: 320px
+}
+
+.main-block:nth-child(4) {
+    position: relative;
+    bottom: 220px
+}
+.main-block:nth-child(5) {
+    position: relative;
+    bottom: 150px
+}
+.main-block:nth-child(6) {
+    position: relative;
+    bottom: 80px
+}
+

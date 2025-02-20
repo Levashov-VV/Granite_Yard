@@ -6,6 +6,10 @@
     gap: 36px;
 }
 
+.delivery-block :first-child {
+    position: relative;
+}
+
 .del {
     width: 1408px;
     padding: 0px 5%;

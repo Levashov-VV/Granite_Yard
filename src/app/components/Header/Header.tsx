@@ -38,7 +38,7 @@ export default function Header({}) {
 
     const linksGranit = [
         { href: '/pages/product/Gabro-D', label: 'Габбро-диабаз' },
-        { href: '/pages/product/Karelia-black', label: 'Карелия Блэк' },
+        { href: '/pages/product/Sosnovckiy', label: 'Сосновский серый' },
         { href: '/pages/product/Smoke', label: 'Дымовский' },
         { href: '/pages/product/Rapakivi', label: 'Рапакиви' },
         { href: '/pages/product/Shongui', label: 'Шонгуй' },
@@ -60,7 +60,13 @@ export default function Header({}) {
                 <div className="nav">
                     <div className="nav-block">
                         <div className="logo">
-                            <Image src={Logo} className="logo" alt="Логотип" />
+                            <Link href="/">
+                                <Image
+                                    src={Logo}
+                                    className="logo"
+                                    alt="Логотип"
+                                />
+                            </Link>
                         </div>
                     </div>
                     <div className="nav-block">
@@ -92,7 +98,7 @@ export default function Header({}) {
                                 <div className="nav-block">
                                     <Button className="nav-button">
                                         <Dropdown
-                                            name="Цены"
+                                            name="Продукция"
                                             links={linksPrice}
                                         />
                                     </Button>

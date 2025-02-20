@@ -15,11 +15,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 64px;
 }
 
 .info-block:first-child {
-    padding-top: 16px;
+    position: relative;
+    bottom: 160px;
+}
+
+.info-block:nth-child(2) {
+    position: relative;
+    bottom: 90px;
+}
+
+.info-block:nth-child(3) {
+    position: relative;
+    bottom: 40px;
 }
 
 .cards {
@@ -53,4 +63,21 @@
     line-height: 40px;
     font-family: 'Manrope';
     font-weight: 400;
+}
+
+.fadeInUp::before {
+    opacity: 0;
+    transition: all 0.5s 0.5s ease-out;
+}
+
+.fadeInUp {
+    opacity: 1;
+    animation: fadeInUp;
+    animation-duration: 1s;
+}
+
+.zoomIn {
+    opacity: 1;
+    animation: zoomIn;
+    animation-duration: 1s;
 }

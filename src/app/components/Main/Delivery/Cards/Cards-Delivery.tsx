@@ -44,6 +44,7 @@ const StyledWrapper = styled.div`
 
     .card:hover {
         transform: translateY(-5px);
+        scale: 1.1;
         transition: all 0.5s ease-in-out;
     }
 `;

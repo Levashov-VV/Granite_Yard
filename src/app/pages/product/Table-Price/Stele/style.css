@@ -1,0 +1,50 @@
+.price-list {
+    width: 100%;
+    overflow-x: auto; 
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    font-family: 'Manrope';
+    
+  }
+  
+  .table-block {
+    width: 45%;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table thead {
+    background-color: #f2f2f2;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table th {
+    font-weight: bold;
+  }
+
+  .title-table {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-weight: 400;
+    margin-bottom: 40px;
+  }

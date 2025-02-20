@@ -10,10 +10,10 @@ export default function Home() {
     return (
         <div className="main">
             <div className="main-block">
-                <CompanyInfo />
+                <Slider />
             </div>
             <div className="main-block">
-                <Slider />
+                <CompanyInfo />
             </div>
             <div className="main-block">
                 <Delivery />

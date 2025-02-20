@@ -1,11 +1,11 @@
 import ProductCard from './Product-cards/Product-cards';
-import gabro from '../../../Assets/main/Product/Gabro.jpeg';
-import figured from '../../../Assets/main/Product/Figured-monuments.jpg';
-import colorTile from '../../../Assets/main/Product/Color-Granite.jpg';
-import tombstones from '../../../Assets/main/Product/Tombstones.jpg';
-import graniteCut from '../../../Assets/main/Product/Granit-cut.jpeg'
-import rock from '../../../Assets/main/Product/Rock.jpg';
-import block from '../../../Assets/main/Product/Block.jpg';
+import gabro from '../../../Assets/main/Product/Gabro.jpg';
+import figured from '../../../Assets/main/Product/Figured-monuments.png';
+import colorTile from '../../../Assets/main/Product/Color-Granite.png';
+import tombstones from '../../../Assets/main/Product/Tombstones.png';
+import graniteCut from '../../../Assets/main/Product/Granit-cut.png'
+import rock from '../../../Assets/main/Product/Rock.png';
+import block from '../../../Assets/main/Product/block.png';
 import polishedTile from '../../../Assets/main/Product/polished-tiles.jpg';
 import pavingStones from '../../../Assets/main/Product/paving-stones.jpg';
 import stepTile from '../../../Assets/main/Product/step-tile.jpg';
@@ -77,9 +77,9 @@ export default function Product() {
         },
     ];
     return (
-        <div className="product">
-            <div className="product-block">
-                <h2 className="title">Продукция</h2>
+        <div className="product fadeInUp wow">
+            <div className="product-block ">
+                <h2 className="title" >Продукция</h2>
             </div>
             <div className="product-block">
                 {ProductText.map((item) => (

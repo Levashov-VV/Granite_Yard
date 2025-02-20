@@ -1,5 +1,6 @@
 'use client';
 
+import { useEffect } from 'react';
 import Card from '../Cards/Cards';
 import quility from '../../../Assets/main/Quality/quality-medal.svg';
 import tool from '../../../Assets/main/Quality/tool.svg';
@@ -7,8 +8,16 @@ import hand from '../../../Assets/main/Quality/handshake.svg';
 import time from '../../../Assets/main/Quality/time.svg';
 import price from '../../../Assets/main/Quality/best-price.svg';
 import './style.css';
+import 'animate.css';
+import WOW from 'wowjs';
+
 
 export default function CompanyInfo() {
+    useEffect(() => {
+        new WOW.WOW({
+            live: false,
+        }).init();
+    }, []);
     const ourQualities = [
         {
             name: 'Качество материалов',
@@ -42,19 +51,17 @@ export default function CompanyInfo() {
         },
     ];
     return (
-        <section className="info">
-            <div className="info-block">
-                <h1 className="title">О нас</h1>
+        <section className="info ">
+            <div className="info-block fadeInUp wow">
+                <h2 className="title ">О нас</h2>
             </div>
-            <div className="info-block">
-                <h2 className="subtitle">
+            <div className="info-block fadeInUp wow">
+                <h2 className="subtitle ">
                     Добро пожаловать в Гранитный двор — ваш надежный партнер в
                     мире гранита!
                 </h2>
             </div>
-            {/* <div className="info-block">
-            </div> */}
-            <div className="info-block">
+            <div className="info-block fadeInUp wow">
                 <div className="text">
                     Мы молодая и перспективная компания, которая
                     специализируется на высококачественном распиле и обработке
@@ -64,7 +71,7 @@ export default function CompanyInfo() {
                     точностью и вниманием к деталям.
                 </div>
             </div>
-            <div className="info-block cards">
+            <div className="info-block cards fadeInUp wow">
                 {ourQualities.map((quality, index) => (
                     <Card key={index} quality={quality} />
                 ))}

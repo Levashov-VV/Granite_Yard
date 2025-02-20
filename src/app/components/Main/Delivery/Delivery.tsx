@@ -24,7 +24,7 @@ export default function Delivery() {
         },
     ];
     return (
-        <div className="delivery">
+        <div className="delivery fadeInUp wow">
             <div className="delivery-block">
                 <h2 className="title">Доставка</h2>
             </div>
