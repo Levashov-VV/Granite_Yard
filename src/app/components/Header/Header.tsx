@@ -28,7 +28,7 @@ export default function Header({}) {
         { href: '/pages/price/Slabs', label: 'Слэбы' },
         { href: '/pages/price/Gabro', label: 'Корки из габбро-диабаза' },
         { href: '/pages/price/Granit-tiles', label: 'Гранитная плитка' },
-        { href: '/pages/price/Paving-stones', label: 'Плиты мощения' },
+        { href: '/pages/price/Kitchen-granit', label: 'Кухонный гранит' },
         { href: '/pages/price/Step-tiles', label: 'Пошаговые плиты' },
         { href: '/pages/price/Paving-slabs', label: 'Гранитная брусчатка' },
         { href: '/pages/price/Border-granit', label: 'Гранитная бордюры' },
