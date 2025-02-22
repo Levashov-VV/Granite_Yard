@@ -3,7 +3,7 @@ import FeedBack from '@/app/components/Main/FeedBack/FeedBack';
 import Tile1 from '../../../Assets/main/Prod/Standart-tiles/Tile1.png';
 import Tile2 from '../../../Assets/main/Prod/Standart-tiles/Tile2.png';
 import Tile3 from '../../../Assets/main/Prod/Standart-tiles/Tile3.jpg';
-import './style.css';
+import '../style.css';
 
 export default function StandartTiles() {
     const listText = [

@@ -1,9 +1,9 @@
 import Image from 'next/image';
 import FeedBack from '@/app/components/Main/FeedBack/FeedBack';
-import Tile1 from '../../../Assets/main/Prod/Standart-tiles/Tile1.png';
-import Tile2 from '../../../Assets/main/Prod/Standart-tiles/Tile2.png';
-import Tile3 from '../../../Assets/main/Prod/Standart-tiles/Tile3.jpg';
-import './style.css';
+import ColorTile1 from '../../../Assets/main/Prod/Color-tiles/Color1.jpg';
+import ColorTile2 from '../../../Assets/main/Prod/Color-tiles/Color-Tile2.png';
+import ColorTile3 from '../../../Assets/main/Prod/Color-tiles/Color-Tile3.png';
+import '../style.css';
 
 export default function ColorTiles() {
     const listText = [
@@ -65,21 +65,21 @@ export default function ColorTiles() {
                     <div className="description-img">
                         <Image
                             className="standartTiles-img"
-                            src={Tile1}
+                            src={ColorTile1}
+                            alt="ColorTile1"
+                        />
+                    </div>
+                    <div className="description-img">
+                        <Image
+                            className="standartTiles-img"
+                            src={ColorTile2}
                             alt="Tile1"
                         />
                     </div>
                     <div className="description-img">
                         <Image
                             className="standartTiles-img"
-                            src={Tile2}
-                            alt="Tile1"
-                        />
-                    </div>
-                    <div className="description-img">
-                        <Image
-                            className="standartTiles-img"
-                            src={Tile3}
+                            src={ColorTile3}
                             alt="Tile1"
                         />
                     </div>
