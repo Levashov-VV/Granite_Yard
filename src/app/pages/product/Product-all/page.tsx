@@ -111,8 +111,8 @@ export default function ProductAll() {
     return (
         <div className="productAll">
             <div className="productAll-blocks">
-                <h1 className="title title-productAll">Наши граниты</h1>
-                <p className="subtitle subtitle-productAll">
+                <h1 className="title-productAll">Наши граниты</h1>
+                <p className="subtitle-productAll">
                     Мы предлагаем вам большой ассортимент товаров из различных
                     видов гранитов
                 </p>

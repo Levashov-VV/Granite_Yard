@@ -1,5 +1,5 @@
 .product-block {
-    padding-top: 32px;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -10,5 +10,6 @@
 
 .product-block:first-child {
     position: relative;
-    bottom: 40px;
+    padding-top: 0px;
+    bottom: 15px;
 }

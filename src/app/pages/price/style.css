@@ -19,19 +19,26 @@
 
 .standartTiles-block:first-child {
   position: relative;
-  bottom: 310px;
+  bottom: 200px;
 }
 
 .standartTiles-block:nth-child(2) {
   position: relative;
-  bottom: 30px;
+  top: 120px;
   display: flex;
   row-gap: 30px;
 }
 
+.standartTiles-block:nth-child(3) {
+  position: relative;
+  top: 140px;
+}
+
 
 .standartTiles-block:nth-child(4) {
-  margin: 30px 0;
+  position: relative;
+  top: 180px;
+  padding-bottom: 210px;
 }
 
 .description-text {

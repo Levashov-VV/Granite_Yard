@@ -1,11 +1,20 @@
-.contacts {
+.contact {
     background-color: #fff;
     font-family: 'Manrope';
+    width: 1408px;
 }
 
-.contacts-blocks:first-child {
+.contact-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-size: 32px;
+    padding: 0 5%;
+}
+.contact-blocks:first-child {
     position: relative;
-    bottom: 350px;
+    bottom: 230px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,26 +22,213 @@
     color: #fff;
 }
 
-.contacts-subtitle {
-    position: relative;
-    font-size: 32px;
+.contact-blocks:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    column-gap: 200px;
+    margin-top: 100px;
 }
 
-.subtitle-contacts {
-    position: relative;
-    font-size: 32px;
-    bottom: 100px;
+.contact-blocks:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
 }
 
-.contacts-title {
+.form-group {
+    padding: 10px 0;
+}
+
+.contact-title {
     font-size: 64px;
 }
+.contact-subtitle {
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    text-align: center;
+}
+.contact-feedback {
+    width: 500px;
+    padding-top: 40px;
+}
 
-.contacts-blocks {
+.contact-text {
+    font-size: 24px;
+    line-height: 32px;
+    width: 110%;
+    hyphens: 'manual';
+    text-align: start;
+    overflow-wrap: break-word;
+}
+
+.contact-form {
     display: flex;
+    flex-direction: column;
+}
+
+.contact-form input,
+textarea {
+    background-color: rgb(238, 238, 238);
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type='tel'] {
+    width: 100%;
+}
+
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.submit-button {
+    background-color: #000000;
+    color: white;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #474a51;
+}
+
+.pravicy-group {
+    width: 120%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
     align-items: center;
+}
+
+input[type='checkbox'] {
+    position: relative;
+    bottom: 5px;
+    width: 40px;
+    height: 40px;
+    -webkit-appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+}
+
+input[type='checkbox']:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 4px solid #262626;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+input:checked[type='checkbox']:before {
+    border-left: none;
+    border-top: none;
+    width: 20px;
+    border-color: rgb(24, 196, 24);
+    transform: rotate(45deg) translate(5px, -10px);
+}
+
+.pravicy-text {
+    width: 100%;
+    font-size: 12px;
+    line-height: 16px;
+    overflow-wrap: break-word;
+    max-width: 430px;
+}
+
+.pravicy-link {
+    color: #007bff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.pravicy-link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.contact-img {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    gap: 32px;
-    font-size: 32px;
-    padding: 0 5%;
+    align-items: end;
+    row-gap: 24px;
+}
+
+.contact-map {
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 100px;
+}
+
+.contact-phone {
+    padding-right: 240px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact-phone:hover {
+    cursor: pointer;
+    color: #474a51;
+}
+
+.contact-email {
+    padding-right: 120px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.contact-email:hover {
+    cursor: pointer;
+    color: #474a51;
+}
+
+.contact-adress {
+    line-height: 32px;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    justify-content: center;
 }

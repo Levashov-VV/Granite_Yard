@@ -5,7 +5,7 @@ import TablePriceTile from '../Table-Price/Tile/table';
 import TablePriceStands from '../Table-Price/Stands/table';
 import TableFlowerGarden from '../Table-Price/Flower-garden/table';
 import FeedBack from '@/app/components/Main/FeedBack/FeedBack';
-import './style.css';
+import '../style.css';
 
 export default function Smoke() {
     const characteristics = [

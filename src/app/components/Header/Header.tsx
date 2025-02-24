@@ -118,9 +118,9 @@ export default function Header({}) {
                                         className="telephone"
                                         alt="Контакты"
                                     />
-                                    <a href="tel:+7 (999) 999-99-99">
+                                    <a href="tel:8(8442) 60-50-46">
                                         <span className="nav-button-text contacts-text">
-                                            + 7 (999) 999-99-99
+                                            8(8442) 60-50-46
                                         </span>
                                     </a>
                                 </button>

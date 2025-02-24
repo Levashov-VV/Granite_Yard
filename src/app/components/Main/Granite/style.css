@@ -13,8 +13,15 @@
 
 .granite-block:first-child {
     position: relative;
-    bottom: 40px;
+    bottom: 55px;
+    padding-bottom: 30px;
 }
+.granite-block:nth-child(2) {
+    position: relative;
+    bottom: 50px;
+    padding-bottom: 0px;
+}
+
 .granite-block:last-child {
     padding-bottom: 0;
 }

@@ -30,9 +30,9 @@ export default function ProductPrice({
                     <Image className="product-price-img" src={firstCharacteristic.img} alt={firstCharacteristic.title} />
                 </div>
                 <div className="product-price-text">
-                    <p className="list-title">Цена от {firstCharacteristic.price}</p>
-                    <p className="list-title">Месторождение {firstCharacteristic.from}</p>
-                    <p className="list-title">Характеристики продукции:</p>
+                    <p className="info-title">Цена от {firstCharacteristic.price}</p>
+                    <p className="info-title">Месторождение {firstCharacteristic.from}</p>
+                    <p className="info-title">Характеристики продукции:</p>
                     {firstCharacteristic.characteristics && (
                         <ul className="list">
                             <li className="list-item">

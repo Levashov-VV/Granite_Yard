@@ -5,13 +5,18 @@
 
 .delivery-blocks:first-child {
     position: relative;
-    bottom: 310px;
+    bottom: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 64px;
     color: #fff;
     padding-bottom: 80px;
+}
+
+.delivery-blocks:nth-child(2) {
+    position: relative;
+    top: 30px;
 }
 
 .subtitle-delivery {
@@ -37,20 +42,13 @@
     height: 100px;
 }
 
-.delivery-blocks:nth-child(2) {
-    position: relative;
-    bottom: 100px;
-}
-
 .delivery-blocks:nth-child(3) {
     width: 1408px;
-    position: relative;
-    bottom: 80px;
     display: flex;
     align-items: start;
     justify-content: start;
     flex-direction: column;
-    padding: 0 5%;
+    padding: 40px 5%;
 }
 
 .delivery-list {
@@ -86,7 +84,7 @@
 
 .delivery-blocks:nth-child(4) {
     position: relative;
-    bottom: 40px;
+    bottom: 20px;
 }
 
 .delivery-img-title {
@@ -103,5 +101,5 @@
 .delivery-blocks:nth-child(5) {
     display: flex;
     flex-direction: column;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }

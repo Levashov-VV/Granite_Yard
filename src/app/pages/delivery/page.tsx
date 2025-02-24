@@ -40,8 +40,8 @@ export default function DeliveryPage() {
     return (
         <div className="delivery">
             <div className="delivery-blocks">
-                <h1 className="title title-delivery">Доставка</h1>
-                <p className="subtitle subtitle-delivery">
+                <h1 className="title-delivery">Доставка</h1>
+                <p className="subtitle-delivery">
                     Доставка гранита по всей стране – надежно, быстро, удобно!
                 </p>
             </div>
