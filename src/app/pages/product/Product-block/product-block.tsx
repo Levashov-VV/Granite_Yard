@@ -1,7 +1,4 @@
-
-
 export default function ProductBlock() {
-
     return (
         <div className="product-page">
             <div className="product-page-block">
@@ -12,17 +9,10 @@ export default function ProductBlock() {
                     <p></p>
                 </div>
             </div>
-            <div className="product-page-block">
-            </div>
-            <div className="product-page-block">
-
-            </div>
-            <div className="product-page-block">
-
-            </div>
-            <div className="product-page-block">
-
-            </div>
+            <div className="product-page-block"></div>
+            <div className="product-page-block"></div>
+            <div className="product-page-block"></div>
+            <div className="product-page-block"></div>
         </div>
     );
 }

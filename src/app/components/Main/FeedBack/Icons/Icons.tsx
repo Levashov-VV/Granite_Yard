@@ -4,22 +4,12 @@ import React from 'react';
 import Image from 'next/image';
 import styled from 'styled-components';
 import telegram from '../../../../Assets/icons-feedback/telegram.svg';
-import vk from '../../../../Assets/icons-feedback/vk.svg';
-import instagram from '../../../../Assets/icons-feedback/instagram.svg';
 import whatsapp from '../../../../Assets/icons-feedback/whatsapp.svg';
 
 const Card = () => {
     return (
         <StyledWrapper>
             <div className="card">
-                <a href="#" className="socialContainer containerOne">
-                    <Image
-                        src={instagram}
-                        alt="instagram"
-                        width={30}
-                        height={30}
-                    />
-                </a>
                 <a href="#" className="socialContainer containerTwo">
                     <Image
                         src={telegram}
@@ -27,9 +17,6 @@ const Card = () => {
                         width={30}
                         height={30}
                     />
-                </a>
-                <a href="#" className="socialContainer containerThree">
-                    <Image src={vk} alt="vk" width={30} height={30} />
                 </a>
                 <a href="#" className="socialContainer containerFour">
                     <Image

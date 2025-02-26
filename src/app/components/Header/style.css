@@ -1,5 +1,5 @@
 .header {
-    background: #fff;
+    background: #474a51;
     width: 100%;
     padding-bottom: 600px;
 }
@@ -8,7 +8,7 @@
     display: grid;
     grid-template-columns: 1fr 6fr;
     align-items: center;
-    padding: 16px 32px 0px;
+    padding: 16px 40px 0px;
     position: relative;
     z-index: 100;
 }
@@ -21,6 +21,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    column-gap: 45px;
 }
 
 .nav-list {
@@ -30,17 +31,18 @@
     list-style: none;
     gap: 32px;
     padding: 0px 32px;
-    font-size: 16px;
-    font-weight: 800;
     line-height: 20px;
     font-family: 'Manrope';
-    font-weight: 800;
 }
 
 .nav-button {
     display: flex;
     align-items: center;
-    background: #fff;
+    justify-content: center;
+    height: 110px;
+    background: #474a51;
+    font-size: 20px;
+    color: #fff;
     width: 140px;
     border: none;
     cursor: pointer;
@@ -55,10 +57,14 @@
 }
 
 .nav-button-text {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
     line-height: 20px;
     font-family: 'Manrope';
+}
+
+a {
+    color: #fff;
 }
 
 .arrow {
@@ -74,7 +80,8 @@
     display: flex;
     align-items: center;
     gap: 8px;
-    background-color: #fff;
+    background-color: #474a51;
+    color: #fff;
 }
 
 .contacts-text:hover {

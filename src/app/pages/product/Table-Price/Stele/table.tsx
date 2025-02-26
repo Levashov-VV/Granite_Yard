@@ -7,7 +7,7 @@ interface SteleProps {
 export default function Stele({ stele, thickness }: SteleProps) {
     return (
         <>
-            <h2 className='title-table'>Стелы</h2>
+            <h2 className="title-table">Стелы</h2>
             <div className="price-list">
                 {stele.map((priceList, index) => (
                     <div className="table-block" key={index}>
@@ -20,11 +20,7 @@ export default function Stele({ stele, thickness }: SteleProps) {
                                 </tr>
                                 <tr>
                                     <td>Размер, мм</td>
-                                    <td
-                                        colSpan={3}
-                                    >
-                                        Цена, руб.
-                                    </td>
+                                    <td colSpan={3}>Цена, руб.</td>
                                 </tr>
                             </thead>
                             <tbody>

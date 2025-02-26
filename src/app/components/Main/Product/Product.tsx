@@ -3,7 +3,7 @@ import gabro from '../../../Assets/main/Product/Gabro.jpg';
 import figured from '../../../Assets/main/Product/Figured-monuments.png';
 import colorTile from '../../../Assets/main/Product/Color-Granite.png';
 import tombstones from '../../../Assets/main/Product/Tombstones.png';
-import graniteCut from '../../../Assets/main/Product/Granit-cut.png'
+import graniteCut from '../../../Assets/main/Product/Granit-cut.png';
 import rock from '../../../Assets/main/Product/Rock.png';
 import block from '../../../Assets/main/Product/block.png';
 import polishedTile from '../../../Assets/main/Product/polished-tiles.jpg';
@@ -77,9 +77,9 @@ export default function Product() {
         },
     ];
     return (
-        <div className="product fadeInUp wow">
+        <div className="product fadeInUp wow" id="product">
             <div className="product-block ">
-                <h2 className="title" >Продукция</h2>
+                <h2 className="title">Продукция</h2>
             </div>
             <div className="product-block">
                 {ProductText.map((item) => (

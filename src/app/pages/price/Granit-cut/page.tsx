@@ -67,10 +67,11 @@ export default function GraniteCut() {
                 </div>
                 <div className="description">
                     <p className="description-text">
-                        Распил гранита — это процесс обработки гранитных блоков с целью
-                        получения плит или деталей необходимых размеров и форм. Этот процесс
-                        является одним из наиболее сложных в камнеобработке из-за высокой
-                        твердости и стоимости материала.                   
+                        Распил гранита — это процесс обработки гранитных блоков
+                        с целью получения плит или деталей необходимых размеров
+                        и форм. Этот процесс является одним из наиболее сложных
+                        в камнеобработке из-за высокой твердости и стоимости
+                        материала.
                     </p>
                     <ul className="description-list">
                         {listText.map((item, index) => (
@@ -96,14 +97,22 @@ export default function GraniteCut() {
             </div>
             <div className="standartTiles-block">
                 <div className="description">
-                    <h3 className='title-text'>Примеры работ</h3>
+                    <h3 className="title-text">Примеры работ</h3>
                 </div>
                 <div className="description-images">
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Cut1} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Cut1}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Cut2} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Cut2}
+                            alt="Tile1"
+                        />
                     </div>
                 </div>
             </div>

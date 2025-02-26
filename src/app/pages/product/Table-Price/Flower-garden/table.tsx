@@ -1,5 +1,3 @@
-import './style.css'
-
 interface FlowerGardenProps {
     flowerGarden: {
         long: number;

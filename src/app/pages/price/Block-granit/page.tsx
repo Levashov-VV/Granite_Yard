@@ -55,11 +55,12 @@ export default function BlockGranit() {
                 </div>
                 <div className="description">
                     <p className="description-text">
-                        Гранитные блоки — это крупные массивы натурального камня, добываемые
-                        из гранитных месторождений. Они получают с помощью открытых или
-                        буровзрывных методов, после чего блоки транспортируются на
-                        производства для дальнейшей переработки в различные изделия, такие
-                        как плитка, брусчатка, столешницы и элементы архитектуры.
+                        Гранитные блоки — это крупные массивы натурального
+                        камня, добываемые из гранитных месторождений. Они
+                        получают с помощью открытых или буровзрывных методов,
+                        после чего блоки транспортируются на производства для
+                        дальнейшей переработки в различные изделия, такие как
+                        плитка, брусчатка, столешницы и элементы архитектуры.
                     </p>
                     <ul className="description-list">
                         {listText.map((item, index) => (
@@ -85,17 +86,29 @@ export default function BlockGranit() {
             </div>
             <div className="standartTiles-block">
                 <div className="description">
-                    <h3 className='title-text'>Примеры работ</h3>
+                    <h3 className="title-text">Примеры работ</h3>
                 </div>
                 <div className="description-images">
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Block1} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Block1}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Block2} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Block2}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Block3} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Block3}
+                            alt="Tile1"
+                        />
                     </div>
                 </div>
             </div>

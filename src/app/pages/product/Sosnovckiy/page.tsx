@@ -12,9 +12,8 @@ export default function GabroD() {
         {
             title: 'Сосновский серый',
             subtitle: 'Цена, характеристики, добыча',
-            img: Sosnovskiy ,
-            price: '5000 руб.',
-            from: 'Другорецкое',
+            img: Sosnovskiy,
+            price: '2650 руб.',
             characteristics: [2.6, 1500, 0.4, 200, 0.14, 105],
         },
     ];
@@ -249,8 +248,8 @@ export default function GabroD() {
             oneSide: 950,
             fiveSide: 1150,
         },
-    ]
-    
+    ];
+
     const price50mm = [
         {
             title: '600x400',
@@ -479,9 +478,7 @@ export default function GabroD() {
     return (
         <div className="granite-page">
             <div className="granite-page-block">
-                <ProductBlock
-                    characteristics={characteristics}
-                />
+                <ProductBlock characteristics={characteristics} />
             </div>
             <div className="granite-page-block">
                 <TablePriceStele stele={stele} thickness={thickness} />

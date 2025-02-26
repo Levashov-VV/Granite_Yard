@@ -9,7 +9,7 @@
 
 .product-price-block:first-child {
     position: relative;
-    bottom: 200px;
+    bottom: 250px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,12 +20,12 @@
 
 .product-price-block:nth-child(2) {
     position: relative;
-    top: 100px;
+    top: 70px;
 }
 
 .product-price-block:nth-child(3) {
     position: relative;
-    top: 100px;
+    top: 110px;
 }
 
 .product-price-img {
@@ -66,4 +66,13 @@
 
 .granite-page-block:nth-child(5) {
     padding-bottom: 50px;
+}
+
+.granite-page-none {
+    font-family: 'Manrope';
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 5%;
 }

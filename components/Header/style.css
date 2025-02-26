@@ -1,5 +1,5 @@
 .header {
-    background: #fff;
+    background: #474a51;
     width: 100%;
     padding-bottom: 600px;
 }
@@ -35,31 +35,6 @@
     line-height: 20px;
     font-family: 'Manrope';
     font-weight: 800;
-}
-
-.nav-button {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    background: #fff;
-    width: 140px;
-    border: none;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-    font-family: manrope, serif;
-}
-
-.nav-button:hover {
-    transform: scale3d(1.1, 1.1, 1.1);
-}
-
-.nav-button-text {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 20px;
-    font-family: 'Manrope';
 }
 
 .arrow {

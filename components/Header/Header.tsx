@@ -92,7 +92,7 @@ export default function Header({}) {
                                 <div className="nav-block">
                                     <Button className="nav-button">
                                         <Dropdown
-                                            name="Цены"
+                                            name="Продукция"
                                             links={linksPrice}
                                         />
                                     </Button>

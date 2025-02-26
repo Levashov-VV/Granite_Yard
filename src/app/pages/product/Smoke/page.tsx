@@ -12,9 +12,8 @@ export default function Smoke() {
         {
             title: 'Дымовский',
             subtitle: 'Цена, характеристики, добыча',
-            img: Dym ,
-            price: '2650 руб.',
-            from: 'Другорецкое',
+            img: Dym,
+            price: '2800 руб.',
             characteristics: [2.879, 1600, 0.1, 300, 0.17, 1],
         },
     ];
@@ -249,8 +248,8 @@ export default function Smoke() {
             oneSide: 1000,
             fiveSide: 1200,
         },
-    ]
-    
+    ];
+
     const price50mm = [
         {
             title: '600x400',
@@ -477,11 +476,9 @@ export default function Smoke() {
     ];
     const stele = [price50mm, price60mm, price80mm, price100mm];
     return (
-<div className="granite-page">
+        <div className="granite-page">
             <div className="granite-page-block">
-                <ProductBlock
-                    characteristics={characteristics}
-                />
+                <ProductBlock characteristics={characteristics} />
             </div>
             <div className="granite-page-block">
                 <TablePriceStele stele={stele} thickness={thickness} />

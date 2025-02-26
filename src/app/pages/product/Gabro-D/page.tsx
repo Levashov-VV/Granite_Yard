@@ -13,7 +13,7 @@ export default function GabroD() {
             title: 'Габбро-диабаз',
             subtitle: 'Цена, характеристики, добыча',
             img: GabroImg,
-            price: '5000 руб.',
+            price: '3100 руб.',
             from: 'Другорецкое',
             characteristics: [3.07, 1400, 0.1, 300, 0.07, 74],
         },
@@ -248,8 +248,8 @@ export default function GabroD() {
             oneSide: 1100,
             fiveSide: 1300,
         },
-    ]
-    
+    ];
+
     const price50mm = [
         {
             title: '600x400',
@@ -478,9 +478,7 @@ export default function GabroD() {
     return (
         <div className="granite-page">
             <div className="granite-page-block">
-                <ProductBlock
-                    characteristics={characteristics}
-                />
+                <ProductBlock characteristics={characteristics} />
             </div>
             <div className="granite-page-block">
                 <TablePriceStele stele={stele} thickness={thickness} />

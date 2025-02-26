@@ -93,17 +93,29 @@ export default function StandartTiles() {
             </div>
             <div className="standartTiles-block">
                 <div className="description">
-                    <h3 className='title-text'>Примеры работ</h3>
+                    <h3 className="title-text">Примеры работ</h3>
                 </div>
                 <div className="description-images">
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Tile1} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Tile1}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Tile2} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Tile2}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Tile3} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Tile3}
+                            alt="Tile1"
+                        />
                     </div>
                 </div>
             </div>

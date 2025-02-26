@@ -1,5 +1,3 @@
-import './style.css';
-
 interface StandsProps {
     stands: {
         long: number;
@@ -7,13 +5,13 @@ interface StandsProps {
         thickness: number;
         oneSide: number;
         fiveSide: number;
-    }[]
+    }[];
 }
 
 export default function TablePriceStands({ stands }: StandsProps) {
     return (
-        <div className='table-tile'>
-            <h2 className='title-table'>Подставки</h2>
+        <div className="table-tile">
+            <h2 className="title-table">Подставки</h2>
             <div className="price-list">
                 <table className="table">
                     <thead>

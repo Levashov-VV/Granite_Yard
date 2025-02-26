@@ -45,24 +45,24 @@ export default function Delivery() {
                     />
                 ))}
             </div>
-                <div className="wholesale">
-                    <div className="wholesale-block">
-                        <h2 className="title">Гранитные памятники оптом</h2>
-                    </div>
-                    <div className="wholesale-block">
-                        <p className="del text">
-                            Стандартные и фигурные, все размеры и формы из
-                            черного, серого и цветного гранита месторождений
-                            Карелии и северо-западного региона России.
-                        </p>
-                        <p className="del text">
-                            Продажа заготовок и готовых моделей оптом
-                        </p>
-                        <p className="del text">
-                            Купить с доставкой по РФ любым видом транспорта.
-                        </p>
-                    </div>
+            <div className="wholesale">
+                <div className="wholesale-block">
+                    <h2 className="title">Гранитные памятники оптом</h2>
                 </div>
+                <div className="wholesale-block">
+                    <p className="del text">
+                        Стандартные и фигурные, все размеры и формы из черного,
+                        серого и цветного гранита месторождений Карелии и
+                        северо-западного региона России.
+                    </p>
+                    <p className="del text">
+                        Продажа заготовок и готовых моделей оптом
+                    </p>
+                    <p className="del text">
+                        Купить с доставкой по РФ любым видом транспорта.
+                    </p>
+                </div>
+            </div>
             <div className="delivery-block">
                 <Link href={button[0].href}>
                     <Button button={button} />

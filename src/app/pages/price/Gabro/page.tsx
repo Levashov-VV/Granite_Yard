@@ -23,7 +23,7 @@ export default function Gabbro() {
                     text: 'включаются в дизайн лестниц, ступеней или других архитектурных элементов',
                 },
             ],
-        }
+        },
     ];
 
     return (
@@ -38,16 +38,20 @@ export default function Gabbro() {
                 </div>
                 <div className="description">
                     <p className="description-text">
-                        Корки из габбро-диабаза — это обрезки или остатки камня, полученные
-                        в процессе обработки и распила габбро-диабаза. Габбро-диабаз — это
-                        вулканическая горная порода, известная своей высокой прочностью,
-                        морозоустойчивостью и устойчивостью к влаге и механическим
-                        нагрузкам. Он широко используется в строительстве для изготовления
-                        плитки, брусчатки, памятников и других декоративных элементов.
-                        Корки из габбро-диабаза могут быть полированными или окантованными.
-                        Полированные корки имеют глянцевую поверхность и используются для
-                        декоративных целей. Окантованные корки имеют обработанный край, что
-                        делает их пригодными для использования в различных строительных проектах.
+                        Корки из габбро-диабаза — это обрезки или остатки камня,
+                        полученные в процессе обработки и распила
+                        габбро-диабаза. Габбро-диабаз — это вулканическая горная
+                        порода, известная своей высокой прочностью,
+                        морозоустойчивостью и устойчивостью к влаге и
+                        механическим нагрузкам. Он широко используется в
+                        строительстве для изготовления плитки, брусчатки,
+                        памятников и других декоративных элементов. Корки из
+                        габбро-диабаза могут быть полированными или
+                        окантованными. Полированные корки имеют глянцевую
+                        поверхность и используются для декоративных целей.
+                        Окантованные корки имеют обработанный край, что делает
+                        их пригодными для использования в различных строительных
+                        проектах.
                     </p>
                     <ul className="description-list">
                         {listText.map((item, index) => (
@@ -73,17 +77,29 @@ export default function Gabbro() {
             </div>
             <div className="standartTiles-block">
                 <div className="description">
-                    <h3 className='title-text'>Примеры работ</h3>
+                    <h3 className="title-text">Примеры работ</h3>
                 </div>
                 <div className="description-images">
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Gabbro1} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Gabbro1}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Gabbro2} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Gabbro2}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Gabbro3} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Gabbro3}
+                            alt="Tile1"
+                        />
                     </div>
                 </div>
             </div>

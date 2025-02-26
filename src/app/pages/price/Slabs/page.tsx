@@ -51,10 +51,11 @@ export default function Slabs() {
                 </div>
                 <div className="description">
                     <p className="description-text">
-                        это прямоугольные плиты-заготовки, изготовленные из натурального
-                        гранита. Они используются в строительстве и интерьерном дизайне для
-                        создания различных изделий, таких как столешницы, подоконники,
-                        каменные ступени и облицовка стен.                
+                        это прямоугольные плиты-заготовки, изготовленные из
+                        натурального гранита. Они используются в строительстве и
+                        интерьерном дизайне для создания различных изделий,
+                        таких как столешницы, подоконники, каменные ступени и
+                        облицовка стен.
                     </p>
                     <ul className="description-list">
                         {listText.map((item, index) => (
@@ -80,17 +81,29 @@ export default function Slabs() {
             </div>
             <div className="standartTiles-block">
                 <div className="description">
-                    <h3 className='title-text'>Примеры работ</h3>
+                    <h3 className="title-text">Примеры работ</h3>
                 </div>
                 <div className="description-images">
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Slabs1} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Slabs1}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Slabs2} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Slabs2}
+                            alt="Tile1"
+                        />
                     </div>
                     <div className="description-img">
-                        <Image className="standartTiles-img" src={Slabs3} alt="Tile1" />
+                        <Image
+                            className="standartTiles-img"
+                            src={Slabs3}
+                            alt="Tile1"
+                        />
                     </div>
                 </div>
             </div>

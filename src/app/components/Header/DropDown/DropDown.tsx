@@ -2,9 +2,7 @@
 
 import React, { useState } from 'react';
 import './style.css';
-import Image from 'next/image';
 import Link from 'next/link';
-import ArrowDown from '../../../Assets/arrow-down.svg';
 
 interface DropdownProps {
     name: string;
@@ -27,14 +25,11 @@ const Dropdown = ({ name = 'Dropdown', links = [] }: DropdownProps) => {
             <button className="dropbtn" onClick={toggleDropdown}>
                 {name}
             </button>
-            <Image src={ArrowDown} className="arrow" alt="Стрелка" />
             {isOpen && (
                 <div className="dropdown-content">
                     {links.map((link, index) => (
                         <li key={index}>
-                            <Link href={link.href}>
-                              {link.label}
-                            </Link>
+                            <Link href={link.href}>{link.label}</Link>
                         </li>
                     ))}
                 </div>

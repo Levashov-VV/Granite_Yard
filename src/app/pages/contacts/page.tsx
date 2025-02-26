@@ -1,7 +1,4 @@
 'use client';
-
-import Image from 'next/image';
-import Map from './map.jpg';
 import Icons from '../../components/Main/FeedBack/Icons/Icons';
 import { useForm } from 'react-hook-form';
 import Link from 'next/link';
@@ -22,9 +19,24 @@ export default function Contacts() {
         formState: { errors },
     } = useForm<IFormInput>();
 
-    const onSubmit = (data: IFormInput) => {
+    const onSubmit = async (data: IFormInput) => {
         if (data.pravicy) {
-            console.log(data);
+            try {
+                const response = await fetch('/api/sendEmail', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(data),
+                });
+
+                const result = await response.json();
+                console.log(result);
+                alert('Письмо отправлено успешно');
+            } catch (error) {
+                console.error(error);
+                alert('Ошибка при отправке письма');
+            }
         } else {
             alert(
                 'Пожалуйста, подтвердите согласие с политикой конфиденциальности'
@@ -133,12 +145,12 @@ export default function Contacts() {
                                 })}
                             />
                             <label htmlFor="pravicy" className="pravicy-text">
-                                Нажимая кнопку Отправить, я соглашаю с{' '}
+                                Нажимая кнопку Отправить, я соглашаю с {''}
                                 <Link className="pravicy-link" href="./Privacy">
-                                    политикой конфиденциальности{' '}
-                                </Link>{' '}
-                                и даю согласие на обработку моих персональных
-                                данных
+                                    политикой конфиденциальности
+                                </Link>
+                                {''} и даю согласие на обработку моих
+                                персональных данных
                             </label>
                         </div>
                         {errors.pravicy && (
@@ -153,9 +165,10 @@ export default function Contacts() {
                     </form>
                 </div>
                 <div className="contact-img">
-                    {Map && (
-                        <Image className="contact-map" src={Map} alt="map" />
-                    )}
+                    <iframe
+                        src="https://yandex.ru/map-widget/v1/?um=constructor%3A8b0c6631054178795824194c771888e92f31b2e9c2cd79d5669752c6d273dcdc&amp;source=constructor"
+                        className="contact-map"
+                    ></iframe>
                     <div className="contact-info">
                         <a href="tel:8(8442) 60-50-46">
                             <span className="contact-phone">
@@ -164,25 +177,22 @@ export default function Contacts() {
                         </a>
                         <div className="contact-email">
                             <a href="mailto:vkz134@yandex.ru">
-                            <span className="contact-email">
-                                vkz134@yandex.ru
-                            </span>
-                        </a>
+                                <span className="contact-email">
+                                    vkz134@yandex.ru
+                                </span>
+                            </a>
                         </div>
                         <div className="contact-adress">
                             <div>
-                                Волгоградская область, г.о. Город-Герой
-                                Волгоград, г. Волгоград, ш. Авиаторов, д. 16,
-                                помещ. 12
+                                г. Волгоград, ш. Авиаторов, д. 16, помещ. 12
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div className="contact-blocks">
-                <h2 className="subtitle">Мы в соцсетях</h2>
-                <div className="contact-icons">
-                    <Icons />
+                    <div className="contact-blocks">
+                        <div className="contact-icons">
+                            <Icons />
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

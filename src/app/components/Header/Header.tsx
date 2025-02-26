@@ -3,7 +3,6 @@
 import Image from 'next/image';
 import './style.css';
 import Logo from '../../Assets/Logo.png';
-import Telephone from '../../Assets/icon/telephone.svg';
 import Dropdown from './DropDown/DropDown';
 import styled from 'styled-components';
 import HeaderImg from '../../Assets/Header-img.jpg';
@@ -18,6 +17,7 @@ const Button = styled.button`
 
 export default function Header({}) {
     const linksPrice = [
+        { href: '', label: '' },
         { href: '/pages/price/Standart-tiles', label: 'Стандартные памятники' },
         { href: '/pages/price/Color-tiles', label: 'Цветные памятники' },
         { href: '/pages/price/Figure-tiles', label: 'Фигурные памятники' },
@@ -34,9 +34,13 @@ export default function Header({}) {
         { href: '/pages/price/Border-granit', label: 'Гранитная бордюры' },
     ];
 
-    const linksDelivery = [{ href: '/pages/delivery', label: 'Доставка' }];
+    const linksDelivery = [
+        { href: '', label: '' },
+        { href: '/pages/delivery', label: 'Доставка' },
+    ];
 
     const linksGranit = [
+        { href: '', label: '' },
         { href: '/pages/product/Gabro-D', label: 'Габбро-диабаз' },
         { href: '/pages/product/Sosnovckiy', label: 'Сосновский серый' },
         { href: '/pages/product/Smoke', label: 'Дымовский' },
@@ -52,7 +56,7 @@ export default function Header({}) {
         },
         { href: '/pages/product/Renaissance', label: 'Возрождение' },
         { href: '/pages/product/Spock-buntin', label: 'Сопка Бунтина' },
-        { href: '/pages/product/Kalguvaara', label: 'Калгуваара' },
+        { href: '/pages/product/Kaalguvaara', label: 'Калгуваара' },
     ];
     return (
         <header className="header">
@@ -74,9 +78,12 @@ export default function Header({}) {
                             <div className="nav-list">
                                 <div className="nav-block">
                                     <button className="nav-button">
-                                        <span className="nav-button-text">
-                                            <Link href="/">Главная</Link>
-                                        </span>
+                                        <Link
+                                            className="nav-button-text"
+                                            href="/"
+                                        >
+                                            Главная
+                                        </Link>
                                     </button>
                                 </div>
                                 <div className="nav-block">
@@ -103,26 +110,24 @@ export default function Header({}) {
                                         />
                                     </Button>
                                 </div>
-                                <button className="nav-button">
-                                    <span>
-                                        <Link href="/pages/contacts">
+                                <div className="nav-block">
+                                    <button className="nav-button">
+                                        <Link
+                                            className="nav-button-text"
+                                            href="/pages/contacts"
+                                        >
                                             Контакты
                                         </Link>
-                                    </span>
-                                </button>
+                                    </button>
+                                </div>
                             </div>
                             <div className="contacts">
                                 <button className="contacts-button">
-                                    <Image
-                                        src={Telephone}
-                                        className="telephone"
-                                        alt="Контакты"
-                                    />
-                                    <a href="tel:8(8442) 60-50-46">
+                                    <Link href="tel:8(8442) 60-50-46">
                                         <span className="nav-button-text contacts-text">
                                             8(8442) 60-50-46
                                         </span>
-                                    </a>
+                                    </Link>
                                 </button>
                             </div>
                         </nav>

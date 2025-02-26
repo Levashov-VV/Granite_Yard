@@ -11,7 +11,6 @@ import './style.css';
 import 'animate.css';
 import WOW from 'wowjs';
 
-
 export default function CompanyInfo() {
     useEffect(() => {
         new WOW.WOW({
@@ -57,8 +56,8 @@ export default function CompanyInfo() {
             </div>
             <div className="info-block fadeInUp wow">
                 <h2 className="subtitle ">
-                    Добро пожаловать в Гранитный двор — ваш надежный партнер в
-                    мире гранита!
+                    Добро пожаловать в Волгоградский камнеобрабатывающий завод —
+                    ваш надежный партнер в мире гранита!
                 </h2>
             </div>
             <div className="info-block fadeInUp wow">
